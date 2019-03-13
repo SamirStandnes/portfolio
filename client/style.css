@@ -300,7 +300,9 @@ a:active {
   #navbar {
     font-size: 0.8em;
   }
-
+  .datapoint {
+    height: auto;
+  }
   .datapointPortfolio {
     height: auto;
   }
