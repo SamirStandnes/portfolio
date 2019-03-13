@@ -1,4 +1,4 @@
-fetch("https://serene-river-80158.herokuapp.com/data")
+fetch("https://localhost:8080/data")
   .then(function(response) {
     return response.json();
   })
