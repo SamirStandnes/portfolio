@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <style>
+                    #api_description {
+                      background-color: LightGrey;
+                      width: 50%;
+
+                      padding: 10px;
+                    }
+                    #api_description_text {
+                      font-style: italic;
+                      opacity: 1;
+                    }
+                    ul {
+                        font-size: 1.7em;
+                        list-style: none;
+                    }
+
+                    li{
+                        margin-top: 10px;
+                        margin-left: -40px;
+                    }
+                a:link{
+                  color: black;
+                }
+
+                a:visited {
+                  color:inherit;
+                }
+
+                a:hover {
+                  color: blue;
+                }
+
+                a:active {
+                  color: blue;
+                }
+
+                </style>
+
+    </head>
+
+    <body>
+        <h1> Welcome to my CV API </h1>
+
+        <div id="api_description">
+          <span id="api_description_text"> You can GET data at url/api/employment, url/api/education and url/api/portfolio or by clicking on the links below. You will receive
+          data in the JSON response.
+          <br>
+          <br>
+          The entire dataset can also be acces via url/api/data.
+         <br>
+         <br>  
+        P.S. There is more data that can be acceses through the API than what is displayed through the user interface on the site.
+        </span>
+        </div>
+
+        <ul id='dataLinks'>
+           <li> <a class="active" href="http://localhost:8080/api/education">education</a></li>
+           <li><a href="http://localhost:8080/api/employment">employment</a></li>
+           <li><a href="http://localhost:8080/api/portfolio">portfolio</a></li>
+        </div>
+    </body>
+
+    <script src="./index_api.js"></script>
+
+    </html>
+
+
+<h1></h1>
