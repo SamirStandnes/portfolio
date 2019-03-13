@@ -76,7 +76,7 @@ iframe {
   font-size: 1em;
   background-color: white;
   position: fixed;
-  margin-bottom: 70px;
+   margin-bottom: 70px;
 }
 
 #resources {
@@ -186,6 +186,80 @@ a:active {
 
 
 
+
+
+@media only screen and (max-device-width: 480px) {
+  .container {
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 250px;
+    font-size: 1.2em;
+    overflow: hidden;
+  }
+
+  .blockTitle {
+    font-size: 1.9em;
+  }
+
+  .block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #dataColumn1_portfolio {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  #resources {
+    flex-direction: column;
+    cursor: pointer;
+    font-size: 3.2em;
+    margin-left: 25px;
+    margin-bottom: 50px;
+
+  }
+
+  i {
+    padding-top: 25px;
+  }
+
+  #APIButton {
+    font-size: 2.8em;
+    right: 15px;
+    padding: 20px;
+  }
+
+  .dataColumn2 {
+    display: none;
+  }
+
+  #navbar {
+    font-size: 1.9em;
+    left: 20px;
+  }
+
+  .navlink {
+    margin-bottom: 20px;
+  }
+
+  .datapoint {
+    margin-bottom: 20px;
+    height: auto;
+  }
+
+  .datapointPortfolio {
+    margin-bottom: 20px;
+    height: auto;
+  }
+
+  #embedded_examples {
+    display: none;
+  }
+
+}
+
+
 @media (max-width: 950px) {
   #APIButton {
     font-size: 2.2em;
@@ -193,7 +267,7 @@ a:active {
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media (max-width: 760px) {
   .block {
     display: flex;
     flex-direction: column;
