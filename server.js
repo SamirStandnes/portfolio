@@ -27,7 +27,6 @@ app.get('/api/data', (req, res, next) => {
 
 
 
-
 app.get('/api/:data', (req, res, next) => {
     res.status(200).json(profileData[req.params.data]);
 
