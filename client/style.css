@@ -187,8 +187,8 @@ a:active {
 
 @media only screen and (max-device-width: 480px) {
   body {
-    background-color: var(--mode-background);
-    color: var(--mode-color);
+    background-color: black;
+    color: white;
   }
 
   .container {
@@ -201,8 +201,8 @@ a:active {
 
   .blockTitle {
     font-size: 1.9em;
-    background-color: var(--mode-background);
-    color: var(--mode-color);
+    background-color: black;
+    color: white;
   }
 
   .block {
@@ -211,8 +211,8 @@ a:active {
   }
 
   .dataColumn1 {
-    background-color: var(--mode-background);
-    color: var(--mode-color);
+    background-color: black;
+    color: white;
   }
 
   a:link {
@@ -234,16 +234,16 @@ a:active {
 
   i {
     padding-top: 25px;
-    background-color: var(--mode-background);
-    color: var(--mode-color);
+    background-color: black;
+    color: white;
   }
 
   #APIButton {
     font-size: 2.8em;
     right: 15px;
     padding: 20px;
-    background-color: var(--mode-background);
-    color: var(--mode-color);
+    background-color: black;
+    color: white;
   }
 
   .dataColumn2 {
@@ -253,8 +253,8 @@ a:active {
   #navbar {
     font-size: 1.9em;
     left: 20px;
-    background-color: var(--mode-background);
-    color: var(--mode-color);
+    background-color: black;
+    color: white;
   }
 
   .navlink {
