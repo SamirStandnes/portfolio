@@ -1,4 +1,4 @@
-fetch("www.samirstandnes/data")
+fetch("/data")
   .then(function(response) {
     return response.json();
   })
