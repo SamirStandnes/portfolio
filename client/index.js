@@ -62,7 +62,6 @@ fetch("http://www.samirstandnes.com/data")
     console.log(data.education.data);
 
     // Populate each block
-
     data.education.data.map(element => {
       console.log(element);
       let divDataPoint1 = document.createElement("div");

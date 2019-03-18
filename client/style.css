@@ -29,6 +29,7 @@ body {
   display: flex;
   flex-direction: row;
 }
+
 .dataColumn1 {
   background-color: white;
   padding-right: var(--width-margins-columns);
@@ -42,7 +43,6 @@ body {
   width: 20%;
 }
 
-
 #embedded_examples {
   display: flex;
   align-items: center;
@@ -53,15 +53,15 @@ body {
   border-top: solid;
 }
 
-#examplesButton{
-display: flex;
-justify-content: center;
-background-color: white;
-font-size: 1.7em;
+#examplesButton {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  font-size: 1.7em;
 }
 
 #lock {
-cursor: pointer;
+  cursor: pointer;
 }
 
 iframe {
@@ -76,7 +76,7 @@ iframe {
   font-size: 1em;
   background-color: white;
   position: fixed;
-   margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 #resources {
@@ -107,6 +107,7 @@ i {
   cursor: pointer;
   padding: 0px;
 }
+
 #APIButton span {
   cursor: pointer;
   display: inline-block;
@@ -132,13 +133,12 @@ i {
   right: 0;
 }
 
-
-a:link{
+a:link {
   color: black;
 }
 
 a:visited {
-  color:inherit;
+  color: inherit;
 }
 
 a:hover {
@@ -150,7 +150,6 @@ a:active {
 }
 
 /* Dataspecific */
-
 .blockTitle {
   background-color: white;
   padding-right: var(--width-margins-columns);
@@ -180,19 +179,15 @@ a:active {
 }
 
 .tech {
- font-style: oblique;
- font-weight: bold;
+  font-style: oblique;
+  font-weight: bold;
 }
-
-
-
-
 
 @media only screen and (max-device-width: 480px) {
-body {
-  background-color: black;
-  color: white;
-}
+  body {
+    background-color: black;
+    color: white;
+  }
 
   .container {
     width: 60%;
@@ -206,7 +201,6 @@ body {
     font-size: 1.9em;
     background-color: black;
     color: white;
-
   }
 
   .block {
@@ -217,10 +211,9 @@ body {
   .dataColumn1 {
     background-color: black;
     color: white;
-
   }
 
-  a:link{
+  a:link {
     color: white;
   }
 
@@ -235,14 +228,12 @@ body {
     font-size: 3.2em;
     margin-left: 25px;
     margin-bottom: 50px;
-
   }
 
   i {
     padding-top: 25px;
     background-color: black;
     color: white;
-
   }
 
   #APIButton {
@@ -281,13 +272,11 @@ body {
   #embedded_examples {
     display: none;
   }
+
   #examplesButton {
-    background-color: black;
-    color: white;
+    display: none;
   }
-
 }
-
 
 @media (max-width: 950px) {
   #APIButton {
@@ -329,9 +318,11 @@ body {
   #navbar {
     font-size: 0.8em;
   }
+
   .datapoint {
     height: auto;
   }
+
   .datapointPortfolio {
     height: auto;
   }
