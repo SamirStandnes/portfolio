@@ -90,6 +90,18 @@ let data = {
         }
       },
       {
+        project_name: "Scatter Plot",
+        project_url: "https://codepen.io/SamTheJam/pen/dgOZMe",
+        project_data: {
+          production_date: "10-2018",
+          technology: "D3.js",
+          development_time_days: 'n/a',
+          development_time_hours: 'n/a',
+          description:
+            "This is a scatterplot of '35 Fastest times up Alpe d'Huez' and allegations of doping."
+        }
+      },
+      {
         project_name: "Drum machine",
         project_url: "https://codepen.io/SamTheJam/pen/ZjYBMQ",
         project_data: {

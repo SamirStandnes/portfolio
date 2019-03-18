@@ -189,6 +189,11 @@ a:active {
 
 
 @media only screen and (max-device-width: 480px) {
+body {
+  background-color: black;
+  color: white;
+}
+
   .container {
     width: 60%;
     margin-top: 20px;
@@ -199,11 +204,24 @@ a:active {
 
   .blockTitle {
     font-size: 1.9em;
+    background-color: black;
+    color: white;
+
   }
 
   .block {
     display: flex;
     flex-direction: column;
+  }
+
+  .dataColumn1 {
+    background-color: black;
+    color: white;
+
+  }
+
+  a:link{
+    color: white;
   }
 
   #dataColumn1_portfolio {
@@ -222,12 +240,17 @@ a:active {
 
   i {
     padding-top: 25px;
+    background-color: black;
+    color: white;
+
   }
 
   #APIButton {
     font-size: 2.8em;
     right: 15px;
     padding: 20px;
+    background-color: black;
+    color: white;
   }
 
   .dataColumn2 {
@@ -237,6 +260,8 @@ a:active {
   #navbar {
     font-size: 1.9em;
     left: 20px;
+    background-color: black;
+    color: white;
   }
 
   .navlink {
@@ -256,6 +281,10 @@ a:active {
   #embedded_examples {
     display: none;
   }
+  #examplesButton {
+    background-color: black;
+    color: white;
+  }
 
 }
 
@@ -267,7 +296,7 @@ a:active {
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 840px) {
   .block {
     display: flex;
     flex-direction: column;
