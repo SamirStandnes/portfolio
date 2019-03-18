@@ -1,4 +1,4 @@
-fetch("https://serene-river-80158.herokuapp.com/data")
+fetch("http://samirstandnes/data")
   .then(function(response) {
     return response.json();
   })
