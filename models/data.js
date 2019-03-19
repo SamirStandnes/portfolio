@@ -73,7 +73,7 @@ let data = {
           technology: "Express.js",
           development_time_days: 'n/a',
           development_time_hours: 'n/a',
-          description: "You can POST a URL to and you will receive a shortened URL in the JSON response."
+          description: "You can POST a URL and you will receive a shortened URL in the JSON response."
         }
       },
 
