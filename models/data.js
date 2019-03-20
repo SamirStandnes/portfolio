@@ -70,7 +70,7 @@ let data = {
         project_url: "https://codepen.io/SamTheJam/pen/RyBaxJ/",
         project_data: {
           production_date: "01-2019",
-          technology: "Express.js",
+          technology: "Express.js and MongoDB",
           development_time_days: 'n/a',
           development_time_hours: 'n/a',
           description: "You can POST a URL and you will receive a shortened URL in the JSON response."
@@ -86,7 +86,7 @@ let data = {
           development_time_days: 'n/a',
           development_time_hours: 'n/a',
           description:
-            "This is a book quiz. The game is an implementation of markov chain text generator. "
+            "This is a book quiz where data is pulled out of HTML and XML files, from the web, in real-time. The game is an implementation of markov chain text generator. "
         }
       },
       {
@@ -153,3 +153,77 @@ let data = {
 };
 
 module.exports = data;
+
+
+/*
+
+  {
+        project_name: "Survey From",
+        project_url: "https://codepen.io/SamTheJam/pen/RJKRqe",
+        project_data: {
+          production_date: "??-2017",
+          technology: "HTML",
+          project_size: "small",
+          development_time_days: 'n/a',
+          development_time_hours: 'n/a',
+          description: "This is an example of a responsive survey form."
+        }
+  },
+
+    {
+        project_name: "Weather app",
+        project_url: "https://codepen.io/SamTheJam/pen/yXxBag",
+        project_data: {
+          production_date: "08-2017",
+          technology: "JQuery",
+          project_size: "small",
+          development_time_days: 'n/a',
+          development_time_hours: 'n/a',
+          description: "This is an example of a responsive survey form."
+        }
+  },
+  
+  {
+        project_name: "Wikipedia search",
+        project_url: "https://codepen.io/SamTheJam/pen/jwjaxQ",
+        project_data: {
+          production_date: "??-2017",
+          technology: "Javascript",
+          project_size: "small",
+          development_time_days: 'n/a',
+          development_time_hours: 'n/a',
+          description: "Search for articles on Wikipedia or spin the wheel."
+        }
+  },
+
+  {
+        project_name: "Twitch Streams",
+        project_url: "https://codepen.io/SamTheJam/pen/YxgGME",
+        project_data: {
+          production_date: "??-2017",
+          technology: "Javascript",
+          project_size: "small",
+          development_time_days: 'n/a',
+          development_time_hours: 'n/a',
+          description: "Overview og 'streamers' and login status"
+        }
+  },
+
+{
+        project_name: "Random Quote Machine",
+        project_url: "https://codepen.io/SamTheJam/pen/MoEjvM",
+        project_data: {
+          production_date: "??-2017",
+          technology: "Javascript",
+          project_size: "small",
+          development_time_days: 'n/a',
+          development_time_hours: 'n/a',
+          description: "Generate new quotes and tweet the one you like."
+        }
+  },
+
+
+
+
+
+*/
