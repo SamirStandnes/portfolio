@@ -202,8 +202,11 @@ a:active {
     width: 60%;
     margin-top: 20px;
     margin-left: 250px;
-    font-size: 1.2em;
+    font-size: 1.4em;
     overflow: hidden;
+  }
+  .navlink {
+    font-size: 1.15em;
   }
 
   .blockTitle {
