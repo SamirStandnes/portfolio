@@ -67,7 +67,7 @@ let data = {
     data: [
       {
         project_name: "Url shorterner microservice",
-        project_url: "https://codepen.io/SamTheJam/pen/RyBaxJ/",
+        project_url: "https://url-shortener-microservice24-7.herokuapp.com/",
         project_data: {
           production_date: "01-2019",
           technology: "Express.js and MongoDB",
@@ -80,7 +80,7 @@ let data = {
 
       {
         project_name: "Markov guessing game",
-        project_url: "https://codepen.io/SamTheJam/pen/RyBaxJ/",
+        project_url: "https://github.com/SamirStandnes/guess_the_book_markov",
         project_data: {
           production_date: "11-2018",
           technology: "Python",
