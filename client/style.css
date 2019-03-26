@@ -224,7 +224,7 @@ a:active {
   .block {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .dataColumn1 {
