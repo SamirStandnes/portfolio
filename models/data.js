@@ -123,7 +123,7 @@ let data = {
           development_time_days: "n/a",
           development_time_hours: "n/a",
           description:
-            "This is a fully functional markdown previewer, with and editor and preview window. "
+            "This is a fully functional markdown previewer, with an editor and a preview window. "
         }
       },
 
@@ -132,7 +132,7 @@ let data = {
         project_url: "https://codepen.io/SamTheJam/pen/RyBaxJ/",
         project_data: {
           production_date: "06-2018",
-          technology: "Javascript",
+          technology: "Javacript",
           development_time_days: "n/a",
           development_time_hours: "n/a",
           description:
@@ -145,7 +145,7 @@ let data = {
         project_url: "https://codepen.io/SamTheJam/pen/vRGgMJ",
         project_data: {
           production_date: "03-2018",
-          technology: "Javascript",
+          technology: "JavaScript",
           development_time_days: "n/a",
           development_time_hours: "n/a",
           description: "This is a fully functional calculator. Subtract, add, multiply or divide."
@@ -168,8 +168,8 @@ let data = {
         project_name: "Wikipedia search",
         project_url: "https://codepen.io/SamTheJam/pen/jwjaxQ",
         project_data: {
-          production_date: "??-2017",
-          technology: "Javascript",
+          production_date: "2017",
+          technology: "JavaScript",
           project_size: "small",
           development_time_days: "n/a",
           development_time_hours: "n/a",
@@ -181,8 +181,8 @@ let data = {
         project_name: "Twitch Streams",
         project_url: "https://codepen.io/SamTheJam/pen/YxgGME",
         project_data: {
-          production_date: "??-2017",
-          technology: "Javascript",
+          production_date: "2017",
+          technology: "JavaScript",
           project_size: "small",
           development_time_days: "n/a",
           development_time_hours: "n/a",
@@ -194,8 +194,8 @@ let data = {
         project_name: "Random Quote Machine",
         project_url: "https://codepen.io/SamTheJam/pen/MoEjvM",
         project_data: {
-          production_date: "??-2017",
-          technology: "Javascript",
+          production_date: "2017",
+          technology: "JavaScript",
           project_size: "small",
           development_time_days: "n/a",
           development_time_hours: "n/a",
@@ -206,7 +206,7 @@ let data = {
         project_name: "Survey From",
         project_url: "https://codepen.io/SamTheJam/pen/RJKRqe",
         project_data: {
-          production_date: "??-2017",
+          production_date: "2017",
           technology: "HTML",
           project_size: "small",
           development_time_days: "n/a",
