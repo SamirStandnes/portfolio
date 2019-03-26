@@ -199,18 +199,23 @@ a:active {
   }
 
   .container {
-    width: 60%;
+    width: 75%;
     margin-top: 20px;
-    margin-left: 250px;
-    font-size: 1.5em;
+    font-size: .8em;
+
     overflow: hidden;
   }
+  
+  #navbar {
+    display: none;
+  }
+  /*
   .navlink {
     font-size: 1.2em;
   }
-
+*/
   .blockTitle {
-    font-size: 2.1em;
+    font-size: 1.5em;
     background-color: black;
     color: white;
     margin-bottom: 15px;
@@ -219,6 +224,7 @@ a:active {
   .block {
     display: flex;
     flex-direction: column;
+    margin-left: 25px;
   }
 
   .dataColumn1 {
@@ -238,9 +244,9 @@ a:active {
   #resources {
     flex-direction: column;
     cursor: pointer;
-    font-size: 3.2em;
-    margin-left: 25px;
-    margin-bottom: 50px;
+    font-size: 1.7em;
+    margin-left: 15px;
+    margin-bottom: 0px;
   }
 
   i {
@@ -251,8 +257,8 @@ a:active {
 
   #APIButton {
     font-size: 2.8em;
-    right: 15px;
-    padding: 20px;
+    right: 12px;
+    padding: 0px;
     background-color: black;
     color: white;
   }
