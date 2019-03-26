@@ -132,7 +132,7 @@ let data = {
         project_url: "https://codepen.io/SamTheJam/pen/RyBaxJ/",
         project_data: {
           production_date: "06-2018",
-          technology: "Javacript",
+          technology: "JavaScript",
           development_time_days: "n/a",
           development_time_hours: "n/a",
           description:
