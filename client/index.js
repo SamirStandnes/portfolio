@@ -1,4 +1,4 @@
-fetch("http://localhost:8080/data")
+fetch("http://www.samirstandnes/data")
   .then(function(response) {
     return response.json();
   })
