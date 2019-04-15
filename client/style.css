@@ -79,6 +79,7 @@ iframe {
   background-color: white;
   position: fixed;
   margin-bottom: 70px;
+  padding-left: 10px;
 }
 
 #resources {
@@ -87,6 +88,7 @@ iframe {
   font-size: 1.5em;
   bottom: 25px;
   position: fixed;
+  padding-left: 15px;
 }
 
 i {
