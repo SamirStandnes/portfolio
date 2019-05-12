@@ -8,8 +8,6 @@ fetch("http://www.samirstandnes.com/data")
 
     let data = myJson;
 
-    // document.getElementById("title").innerHTML = '';
-
     console.log(data);
     //navbar
     //let nav = document.getElementById("navbar");
