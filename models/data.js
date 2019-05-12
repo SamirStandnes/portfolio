@@ -65,6 +65,17 @@ let data = {
   portfolio: {
     heading: "portfolio",
     data: [
+    {
+        project_name: "Personal portfolio page",
+        project_url: "http://www.samirstandnes.com",
+        project_data: {
+          production_date: "03-2019",
+          technology: "JavaScript and Express.js",
+          development_time_days: 'n/a',
+          development_time_hours: 'n/a',
+          description: "Personal portfolio. Hosted on Heroku with one (free) Dyno, with DNS from Route 53 Amazon"
+        }
+      },
       {
         project_name: "Url shorterner microservice",
         project_url: "https://codepen.io/SamTheJam/pen/RyBaxJ/",
