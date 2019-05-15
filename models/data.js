@@ -66,6 +66,17 @@ let data = {
     heading: "portfolio",
     data: [
     {
+        project_name: "Exercise tracker app",
+        project_url: "https://mysterious-mountain-90693.herokuapp.com/",
+        project_data: {
+          production_date: "05-2019",
+          technology: "Express.js and MongoDB",
+          development_time_days: 'n/a',
+          development_time_hours: 'n/a',
+          description: "This is an exercise tracker. You can create a user and log you exerercises."
+        }
+      },
+      {
         project_name: "Personal portfolio page",
         project_url: "http://www.samirstandnes.com",
         project_data: {
@@ -73,7 +84,7 @@ let data = {
           technology: "JavaScript and Express.js",
           development_time_days: 'n/a',
           development_time_hours: 'n/a',
-          description: "Personal portfolio. Hosted on Heroku with one (free) Dyno, with DNS from Route 53 Amazon"
+          description: "Personal portfolio. Hosted on Heroku with one (free) Dyno, with DNS from Amazon Route 53"
         }
       },
       {
