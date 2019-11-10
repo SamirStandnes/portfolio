@@ -65,6 +65,17 @@ let data = {
   portfolio: {
     heading: "portfolio",
     data: [
+      {
+        project_name: "Google Drive API Sync w/Python",
+        project_url: "https://github.com/SamirStandnes/gdrive_sync_folder_script",
+        project_data: {
+          production_date: "11-2019",
+          technology: "Python and Google Drive API",
+          development_time_days: 'n/a',
+          development_time_hours: 'n/a',
+          description: "This is a program that syncs local folder(s) with a Google Drive, using the Google Drive API"
+        }
+      },
     {
         project_name: "Exercise tracker app",
         project_url: "https://mysterious-mountain-90693.herokuapp.com/",
