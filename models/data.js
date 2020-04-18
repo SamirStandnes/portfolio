@@ -65,6 +65,17 @@ let data = {
   portfolio: {
     heading: "portfolio",
     data: [
+    {
+        project_name: "Concultancy concept",
+        project_url: "https://rent-a-brain.community",
+        project_data: {
+          production_date: "03-2020",
+          technology: "React and Firbase",
+          development_time_days: 'n/a',
+          development_time_hours: 'n/a',
+          description: "This is a landing page (https) for a fully operational (concept) concultancy service."
+        }
+      },
       {
         project_name: "Google Drive API Sync w/Python",
         project_url: "https://github.com/SamirStandnes/gdrive_sync_folder_script",
